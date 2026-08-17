@@ -1,0 +1,143 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d9a7ff;
+    color: #333;
+    padding: 20px;
+}
+
+/* Container principal */
+.container {
+    width: 900px;
+    margin: 0px auto;
+    background-color: #c77dff;
+    padding: 20px;
+    border: 1 px solid #999;
+    border-radius: 5px;
+}
+
+/* Container principal - cabeçalho */
+.cabecalho {
+    text-align: center;
+    padding: 25px;
+    border: 1px solid #72259b;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: #7e35af;
+    color: #bdb2ff;
+}
+
+/* Menu de navegação */
+.menu {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #72259b;
+    margin-bottom: 15px;
+    background-color: #7e35af;
+    border-radius: 10px;
+}
+
+.menu h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #bdb2ff;
+}
+
+.links-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.links-menu a {
+    text-decoration: none;
+    color: #bdb2ff;
+    border: 1px solid #bdb2ff;
+    padding: 7px 30px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.links-menu a:hover {
+    background-color: #bdb2ff;
+    color: #7e35af;
+    border-radius: 5px;
+}
+
+.conteudo {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 15px;
+}
+
+.livros {
+    width: 45%;
+    border: 1px solid #72259b;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #7e35af;
+    color: #bdb2ff;
+}
+.livros h2 {
+    font-size: auto;
+    margin-bottom: 12px;
+}
+.livros ul li {
+    font-size: auto;
+    margin-bottom: 7px;
+    list-style-type: none;
+}
+
+
+.cadastros {
+    width: 55%;
+    border: 1px solid #72259b;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #7e35af;
+    color: #bdb2ff;
+}
+
+label {
+    display: block;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+button {
+    background-color: #bdb2ff;
+    color: #7e35af;
+    border: none;
+    padding: 3px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin-top: 10px;
+}
+
+.rodape {
+    text-align: center;
+    padding: 15px;
+    border: 1px solid #72259b;
+    border-radius: 10px;
+    background-color: #7e35af;
+}
+
+.rodape h2 {
+    font-size: 18px;
+    margin-bottom: 12px;
+    color: #bdb2ff;
+}
+
+.rodape p {
+    font-size: 13px;
+    color: #bdb2ff;
+}
